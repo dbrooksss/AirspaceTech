@@ -1,0 +1,16 @@
+{
+	"baseUrl": "https://the-internet.herokuapp.com/login",
+	"viewportWidth": 1350,
+	"viewportHeight": 900,
+	"chromeWebSecurity": false,
+	"pageLoadTimeout": 10000,
+	"scrollBehavior": "center",
+	"testFiles": [
+		"../integration/*.spec.ts"
+	],
+	"env": {
+		"username1": "tomsmith",
+		"password1": "SuperSecretPassword!"
+	},
+	"experimentalStudio": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "airspacetech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --headless --browser chrome --config-file cypress.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.1.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.10"
+  }
+}
